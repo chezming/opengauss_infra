@@ -1,4 +1,4 @@
-FROM golang:1.12.1-alpine3.9 AS builder
+FROM golang:1.20.3-bullseye AS builder
 
 WORKDIR $GOPATH/
 
